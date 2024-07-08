@@ -1,0 +1,290 @@
+{
+   "stage": {
+      "stage_num": 5
+   },
+   "layer": {
+      "layer_num": 3,
+      "layer_stage_matrix": [[0, 1, 2], [1, 2], [1, 2, 3, 4]]
+   },
+   "machine": {
+      "machine_num": 10,
+      "machine0": {
+         "buffer_size": 4,
+         "belong_stage": 0,
+         "proc_ec_f": 41.43,
+         "idle_ec_f": 14.29,
+         "pre_maintenance_interval": 7,
+         "pre_maintenance_time": 28,
+         "pre_maintenance_factor": 0.03,
+         "layer0": {
+            "init_p_ts": [38, 36, 39, 35, 36, 35, 35, 38, 35, 38, 36, 37, 36, 37, 35],
+            "new_p_ts": [39, 37, 35, 38, 35, 38, 39, 36, 38, 39, 40, 37, 39, 36, 35, 39, 38, 38, 37, 36]
+         }
+      },
+      "machine1": {
+         "buffer_size": 3,
+         "belong_stage": 1,
+         "proc_ec_f": 34.12,
+         "idle_ec_f": 18.13,
+         "pre_maintenance_interval": 5,
+         "pre_maintenance_time": 25,
+         "pre_maintenance_factor": 0.042,
+         "layer0": {
+            "init_p_ts": [50, 51, 52, 51, 49, 52, 50, 50, 50, 53, 50, 50, 51, 50, 50],
+            "new_p_ts": [52, 50, 52, 52, 51, 53, 53, 50, 52, 51, 52, 49, 51, 49, 53, 51, 53, 50, 51, 54]
+         },
+         "layer1": {
+            "init_p_ts": [54, 52, 50, 51, 53, 52, 50, 54, 51, 52, 50, 52, 53, 54, 50],
+            "new_p_ts": [50, 52, 49, 52, 50, 50, 53, 50, 52, 51, 51, 49, 51, 54, 50, 53, 54, 53, 53, 50]
+         },
+         "layer2": {
+            "init_p_ts": [52, 54, 53, 54, 52, 51, 50, 50, 50, 53, 51, 52, 50, 49, 53],
+            "new_p_ts": [53, 50, 51, 53, 50, 51, 50, 53, 53, 53, 50, 54, 51, 54, 50, 51, 53, 54, 52, 53]
+         }
+      },
+      "machine2": {
+         "buffer_size": 5,
+         "belong_stage": 2,
+         "proc_ec_f": 43.07,
+         "idle_ec_f": 11.6,
+         "pre_maintenance_interval": 7,
+         "pre_maintenance_time": 30,
+         "pre_maintenance_factor": 0.033,
+         "layer0": {
+            "init_p_ts": [33, 32, 36, 34, 35, 36, 34, 35, 34, 31, 35, 32, 34, 34, 34],
+            "new_p_ts": [36, 32, 31, 36, 35, 34, 33, 32, 33, 32, 35, 32, 32, 34, 33, 35, 35, 33, 32, 35]
+         },
+         "layer1": {
+            "init_p_ts": [35, 33, 36, 33, 33, 36, 35, 34, 35, 32, 36, 36, 33, 36, 33],
+            "new_p_ts": [31, 32, 32, 32, 33, 36, 34, 32, 35, 33, 31, 36, 33, 35, 33, 35, 36, 34, 34, 32]
+         },
+         "layer2": {
+            "init_p_ts": [33, 34, 34, 36, 33, 33, 35, 33, 32, 36, 34, 32, 36, 33, 34],
+            "new_p_ts": [33, 35, 34, 35, 33, 33, 34, 36, 35, 33, 32, 34, 36, 35, 32, 32, 36, 36, 35, 36]
+         }
+      },
+      "machine3": {
+         "buffer_size": 4,
+         "belong_stage": 3,
+         "proc_ec_f": 36.56,
+         "idle_ec_f": 12.5,
+         "pre_maintenance_interval": 7,
+         "pre_maintenance_time": 25,
+         "pre_maintenance_factor": 0.032,
+         "layer2": {
+            "init_p_ts": [47, 48, 48, 44, 47, 49, 44, 46, 48, 46, 46, 46, 49, 45, 47],
+            "new_p_ts": [47, 45, 46, 47, 47, 48, 46, 47, 45, 46, 45, 48, 47, 45, 48, 45, 49, 48, 49, 48]
+         }
+      },
+      "machine4": {
+         "buffer_size": 5,
+         "belong_stage": 4,
+         "proc_ec_f": 30.89,
+         "idle_ec_f": 18.6,
+         "pre_maintenance_interval": 8,
+         "pre_maintenance_time": 18,
+         "pre_maintenance_factor": 0.027,
+         "layer2": {
+            "init_p_ts": [59, 57, 59, 60, 56, 60, 60, 58, 56, 57, 56, 60, 57, 56, 59],
+            "new_p_ts": [56, 57, 58, 60, 56, 58, 59, 56, 57, 59, 58, 60, 59, 57, 59, 60, 58, 59, 58, 60]
+         }
+      },
+      "machine5": {
+         "buffer_size": 5,
+         "belong_stage": 0,
+         "proc_ec_f": 37.63,
+         "idle_ec_f": 12.84,
+         "pre_maintenance_interval": 5,
+         "pre_maintenance_time": 30,
+         "pre_maintenance_factor": 0.042,
+         "layer0": {
+            "init_p_ts": [45, 46, 45, 45, 46, 46, 46, 43, 47, 43, 43, 43, 44, 42, 43],
+            "new_p_ts": [46, 46, 42, 43, 43, 44, 43, 46, 44, 44, 43, 43, 46, 46, 45, 47, 45, 45, 44, 46]
+         }
+      },
+      "machine6": {
+         "buffer_size": 5,
+         "belong_stage": 1,
+         "proc_ec_f": 39.14,
+         "idle_ec_f": 16.86,
+         "pre_maintenance_interval": 8,
+         "pre_maintenance_time": 29,
+         "pre_maintenance_factor": 0.027,
+         "layer0": {
+            "init_p_ts": [42, 43, 43, 41, 40, 39, 42, 40, 41, 40, 39, 40, 39, 44, 41],
+            "new_p_ts": [43, 41, 40, 40, 43, 43, 43, 43, 42, 41, 42, 42, 43, 44, 41, 40, 43, 42, 43, 41]
+         },
+         "layer1": {
+            "init_p_ts": [43, 42, 40, 40, 40, 40, 41, 43, 44, 42, 41, 42, 42, 42, 44],
+            "new_p_ts": [43, 44, 42, 44, 43, 39, 41, 43, 41, 40, 40, 43, 42, 42, 41, 42, 41, 42, 43, 43]
+         },
+         "layer2": {
+            "init_p_ts": [40, 42, 42, 40, 39, 44, 43, 41, 41, 40, 42, 44, 44, 40, 41],
+            "new_p_ts": [44, 41, 44, 43, 44, 44, 40, 43, 44, 43, 43, 41, 41, 40, 40, 40, 42, 44, 43, 42]
+         }
+      },
+      "machine7": {
+         "buffer_size": 5,
+         "belong_stage": 2,
+         "proc_ec_f": 32.66,
+         "idle_ec_f": 17.68,
+         "pre_maintenance_interval": 5,
+         "pre_maintenance_time": 22,
+         "pre_maintenance_factor": 0.041,
+         "layer0": {
+            "init_p_ts": [56, 53, 53, 56, 57, 57, 56, 56, 53, 53, 52, 57, 56, 57, 56],
+            "new_p_ts": [56, 53, 55, 57, 55, 56, 56, 55, 57, 54, 55, 55, 56, 56, 53, 57, 56, 56, 56, 57]
+         },
+         "layer1": {
+            "init_p_ts": [52, 53, 55, 55, 55, 53, 54, 54, 56, 53, 54, 56, 55, 53, 54],
+            "new_p_ts": [54, 55, 56, 55, 55, 54, 57, 56, 53, 53, 53, 54, 54, 54, 55, 55, 54, 55, 54, 57]
+         },
+         "layer2": {
+            "init_p_ts": [54, 56, 54, 53, 53, 56, 54, 55, 53, 53, 57, 54, 57, 57, 56],
+            "new_p_ts": [57, 54, 54, 53, 54, 56, 55, 55, 53, 56, 53, 57, 54, 52, 53, 54, 55, 54, 53, 56]
+         }
+      },
+      "machine8": {
+         "buffer_size": 3,
+         "belong_stage": 3,
+         "proc_ec_f": 49.39,
+         "idle_ec_f": 16.13,
+         "pre_maintenance_interval": 8,
+         "pre_maintenance_time": 28,
+         "pre_maintenance_factor": 0.025,
+         "layer2": {
+            "init_p_ts": [21, 20, 23, 21, 22, 20, 23, 22, 20, 22, 20, 23, 20, 24, 21],
+            "new_p_ts": [20, 20, 22, 22, 20, 23, 21, 23, 20, 24, 23, 21, 20, 20, 24, 22, 20, 20, 20, 22]
+         }
+      },
+      "machine9": {
+         "buffer_size": 3,
+         "belong_stage": 4,
+         "proc_ec_f": 41.66,
+         "idle_ec_f": 12.36,
+         "pre_maintenance_interval": 6,
+         "pre_maintenance_time": 26,
+         "pre_maintenance_factor": 0.036,
+         "layer2": {
+            "init_p_ts": [35, 38, 36, 39, 39, 37, 38, 37, 36, 37, 38, 35, 38, 37, 37],
+            "new_p_ts": [36, 35, 39, 35, 38, 36, 35, 39, 38, 35, 37, 37, 36, 39, 38, 34, 36, 36, 35, 37]
+         }
+      },
+      "transport_matrix": [[0, 14, 22, 16, 29, 12, 15, 26, 22, 19], [14, 0, 18, 20, 7, 25, 23, 15, 21, 10], [22, 18, 0, 12, 18, 12, 6, 6, 20, 14], [16, 20, 12, 0, 24, 26, 7, 22, 7, 9], [29, 7, 18, 24, 0, 17, 23, 16, 24, 9], [12, 25, 12, 26, 17, 0, 8, 29, 29, 8], [15, 23, 6, 7, 23, 8, 0, 19, 10, 30], [26, 15, 6, 22, 16, 29, 19, 0, 11, 16], [22, 21, 20, 7, 24, 29, 10, 11, 0, 18], [19, 10, 14, 9, 9, 8, 30, 16, 18, 0]],
+      "transport_ec_f": 2,
+      "wait_ec_f": 0.5,
+      "pub_ec_f": 3,
+      "e_co2_f": 0.6747
+   },
+   "job": {
+      "init_job_num": 15,
+      "job0": {
+         "arrival_t": 0
+      },
+      "job1": {
+         "arrival_t": 0
+      },
+      "job2": {
+         "arrival_t": 0
+      },
+      "job3": {
+         "arrival_t": 0
+      },
+      "job4": {
+         "arrival_t": 0
+      },
+      "job5": {
+         "arrival_t": 0
+      },
+      "job6": {
+         "arrival_t": 0
+      },
+      "job7": {
+         "arrival_t": 0
+      },
+      "job8": {
+         "arrival_t": 0
+      },
+      "job9": {
+         "arrival_t": 0
+      },
+      "job10": {
+         "arrival_t": 0
+      },
+      "job11": {
+         "arrival_t": 0
+      },
+      "job12": {
+         "arrival_t": 0
+      },
+      "job13": {
+         "arrival_t": 0
+      },
+      "job14": {
+         "arrival_t": 0
+      }
+   },
+   "new_job": {
+      "new_job_num": 20,
+      "new_job0": {
+         "arrival_t": 10
+      },
+      "new_job1": {
+         "arrival_t": 30
+      },
+      "new_job2": {
+         "arrival_t": 47
+      },
+      "new_job3": {
+         "arrival_t": 99
+      },
+      "new_job4": {
+         "arrival_t": 124
+      },
+      "new_job5": {
+         "arrival_t": 125
+      },
+      "new_job6": {
+         "arrival_t": 161
+      },
+      "new_job7": {
+         "arrival_t": 170
+      },
+      "new_job8": {
+         "arrival_t": 179
+      },
+      "new_job9": {
+         "arrival_t": 184
+      },
+      "new_job10": {
+         "arrival_t": 217
+      },
+      "new_job11": {
+         "arrival_t": 266
+      },
+      "new_job12": {
+         "arrival_t": 278
+      },
+      "new_job13": {
+         "arrival_t": 342
+      },
+      "new_job14": {
+         "arrival_t": 348
+      },
+      "new_job15": {
+         "arrival_t": 349
+      },
+      "new_job16": {
+         "arrival_t": 410
+      },
+      "new_job17": {
+         "arrival_t": 448
+      },
+      "new_job18": {
+         "arrival_t": 471
+      },
+      "new_job19": {
+         "arrival_t": 475
+      }
+   }
+}
