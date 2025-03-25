@@ -23,10 +23,6 @@ def param_experiment_train():
         # **********************
         # 设置采用的Clip方法
         args.clip = 'EMD'  # PPO or EMD
-        # 考虑PSt-1的代码
-        # args.sa_state_dim = 24
-        # args.ra_state_dim = 24
-        # 注意env.py中的get_ra_state和get_sa_state对应
         args.network = 'Attention'
         args.gamma = 0.99
         args.gae_lambda = 0.95
