@@ -1,0 +1,6 @@
+# 多目标进化算法预测-反应式调度的实验设置
+1. 参考相关动态调度文献(吴秀丽, 李雨馨. 带批处理机的可重入混合流水车间主动-反应式动态调度方法[J/OL]. 计算机集成制造系统, 1-26[2025-04-02]. https://doi.org/10.13196/j.cims.2024.0317.), 设置所有算法的种群数量为100, 迭代次数为50.
+2. NSGA-Ⅱ的交叉概率为0.8, 变异概率为0.2.
+3. MOEA/D的邻居数T设为10.
+4. 徒步优化算法与源文献(Oladejo S O, Ekwe S O, Seyedali M. The hiking optimization algorithm: A novel human-based metaheuristic approach[J]. Knowledge-Based Systems, 2024, 296: 111880--111905.)保持一致, 引入随机键映射与非支配排序来实现工件码的映射与领队解选择
+5. 本文利用重组式重调度(reassemble rescheduling)方法对预调度阶段寻得的帕累托前沿解进行重组式重调度，从而对全部时间步推演结束后的调度解进行最终的评估.
