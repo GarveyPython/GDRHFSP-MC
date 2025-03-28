@@ -3,4 +3,4 @@
 2. NSGA-Ⅱ的交叉概率为0.8, 变异概率为0.2.
 3. MOEA/D的邻居数T设为10.
 4. 徒步优化算法与源文献(Oladejo S O, Ekwe S O, Seyedali M. The hiking optimization algorithm: A novel human-based metaheuristic approach[J]. Knowledge-Based Systems, 2024, 296: 111880--111905.)保持一致, 引入随机键映射与非支配排序来实现工件码的映射与领队解选择
-5. 本文利用重组式重调度(reassemble rescheduling)方法对预调度阶段寻得的帕累托前沿解进行重组式重调度，从而对全部时间步推演结束后的调度解进行最终的评估.
+5. 本文利用重组式重调度(reassemble rescheduling)方法对预调度阶段寻得的帕累托前沿解进行重组式重调度, 从而对全部时间步推演结束后的调度解进行最终的评估. 原因: 结合GDRHFSP-MC问题的多种约束, 我们发现重插入不适用于缓冲区阻塞和预维护约束的解码推演, 而完全式重调度则是将调度时间步t前的调度方案固定并与时间步t后的事件输入加以组合, 从而作为新的静态任务进行再次种群重初始化、迭代, 但这与GDRHFSP-MC问题面向的动态响应场景背道而驰.
