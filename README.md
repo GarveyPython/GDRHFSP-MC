@@ -1,1 +1,2 @@
-# GDRHFSP-MC
+# 多约束可重入混合流水车间绿色动态调度的近端策略优化算法
+wujiaweigo@163.com
